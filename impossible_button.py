@@ -17,7 +17,7 @@ def add_point():
 
     value -= 1
     if chance > value:
-        press.config(text="You Lose "+ str(points), bg="red", disabledforeground="black", state="disabled")
+        press.config(text="Game Over "+ str(points), bg="red", disabledforeground="black", state="disabled")
     print(value)
     print(chance)
 
