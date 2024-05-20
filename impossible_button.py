@@ -42,15 +42,11 @@ def attempts_count():
     attempts += 1
     label2.config(text="Attempt: " + str(attempts))
 
-
-
-
 points = 0
 value = 100
 chance = randint(1, 100)
 highScore = 0
 attempts = 1
-
 
 press = tk.Button(root, text="Press", width=20, bg="light gray", command=lambda:[add_point(), high_score()])
 press.pack()
